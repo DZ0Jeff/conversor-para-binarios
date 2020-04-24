@@ -2,7 +2,7 @@
   "name": "Binarios",
   "version": "1.0.0",
   "description": "um simples conversor para binários",
-  "main": "bin.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
