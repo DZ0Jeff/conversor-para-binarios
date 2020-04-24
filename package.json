@@ -1,5 +1,5 @@
 {
-  "name": "Binarios",
+  "name": "binarios",
   "version": "1.0.0",
   "description": "um simples conversor para binários",
   "main": "server.js",
