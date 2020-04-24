@@ -2,9 +2,11 @@
   "name": "Binarios",
   "version": "1.0.0",
   "description": "um simples conversor para binários",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/DZ0Jeff/conversor-para-binarios/issues"
   },
-  "homepage": "https://github.com/DZ0Jeff/conversor-para-binarios#readme"
+  "homepage": "https://github.com/DZ0Jeff/conversor-para-binarios#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
